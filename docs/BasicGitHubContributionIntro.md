@@ -12,6 +12,7 @@ Many first-time users are intimidated by Git and GitHub, and they are indeed not
 	1. [Set up your notification preferences](#notpref)
 	1. [“Watch” a specific repository](#watch)
 1. [Bonus: combining email with issue commenting](#email)
+1. [Propose a simple change on a document](#edit)
 
 
 ## [Get a GitHub account](id:getgh)
@@ -94,3 +95,24 @@ If you receive such a mail, and you want to comment, you have two possibilities
 2. you *reply* to this mail with your comments; GitHub will insert your reply as a bona fide comment to the issue, just as if you did it directly.
 
 > It is good practice to remove your automatic signature, if any, from the returned email
+
+## Propose a simple change on a document
+
+Direct contribution to content may become more complex, and would require a more extensive knowledge of Git. (See, for example, the [GitHub “Hello World!”](https://guides.github.com/activities/hello-world/) for some more info.) But some simple editorial change (or proposal thereof) is relatively easy.
+
+Say you want to make some editing on an on the `index.html` file in a [specific repository](https://github.com/w3c/dpubwg-charter).
+
+* Click on the file name in the listing
+* This brings up a page with the HTML source. There is a small “pen” icon on the upper right hand corner that you have to push.
+
+![start editing on a file in the repo by pushing the pen icon](IntroFigures/start_editing.png)
+
+* You get an editable area with the source; edit the file at your heart’s content. (There is a pull down menu on the upper right corner to use soft wrap, which is probably what you want if editing HTML)
+* When finished, roll down to the end of the page. You’ll find a separate editable box, where you should give a title and also describe what you did.
+* There is also a choice between “Commit directly…” and “Create a new branch…” but, unless you have special rights on that repository, the first choice is not active. Push on the green button which should say either “Commit change” or “Propose file change”.
+
+![choices on committing the editorial changes](IntroFigures/commit.png)
+
+That is it. The rest is in the hands of the repository administrator
+
+> The result of this action creates, actually, a special issue on the repository that can be “acted” upon. Such an issue is called a “pull request” in the GitHub jargon. “Accepting” such a pull request means that the changes are incorporated. This also means that people can comment on that pull request (just as for any other issue) and will be notified about the change proposal.
