@@ -49,6 +49,10 @@ You can also decide to close an issue (for example, because your question was an
 
 Actually, reacting on an issue may be even simpler; [it can be done by email](#email)! However, that requires some more step on notifications first.
 
+> When your comment is simply an agreement or a disagreement on another comment, it is a good idea to use the small emoji icon on the upper right hand corner of the editing box. The emojis get displayed but do not use up much space...
+
+![screen dump of emoji usage for comments](IntroFigures/emojis.png)
+
 ## [Be notified!](id:notif)
 
 Creating and commenting on issues is fine, but you have to know that there is something interesting happening. For that, some prefer to receive automatic notifications via emails. This includes two steps:
@@ -94,7 +98,9 @@ If you receive such a mail, and you want to comment, you have two possibilities
 1. you use the link in the footer to go to the Web interface
 2. you *reply* to this mail with your comments; GitHub will insert your reply as a bona fide comment to the issue, just as if you did it directly.
 
-> It is good practice to remove your automatic signature, if any, from the returned email
+> It is good practice to remove your automatic signature, if any, from the returned email, as well the possibly long thread of earlier replies either as part of the text or attached. Quote only what is really relevant. It keeps the issue list cleaner
+
+There are pros and cons on using email for comments or respond via a Web interface. The former can be very convenient and quick, the latter allows you to edit your comments more easily and preview the markdown. At the end of the day, this is a personal choice.
 
 ## Propose a simple change on a document
 
