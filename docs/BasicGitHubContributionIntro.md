@@ -1,3 +1,10 @@
+---
+layout: default
+title: Introduction to Basic GitHub Contribution
+---
+
+
+
 # Introduction to Basic GitHub Contribution
 
 Many first-time users are intimidated by Git and GitHub, and they are indeed not simple tools. Most of the guides out there concentrate on how one does contribute to the documents, sources, etc, on a GitHub repository, how to change, commit, etc. However, in groups (like W3C Working Group) there may be a number of participants who would like first to understand what the basics are to raise issues, comment on them, notified about them: this is, for many, the first step in collaborating. This introduction is for them.
