@@ -126,3 +126,5 @@ That is it. The rest is in the hands of the repository administrator
 ### If you need a more sophisticated way of editing...
 
 (This is only for geeks…) It is now possible to start an on-line editing environment for the whole repository. If, while you are in the repository, push the dot (.) key, the window changes for an online version of Visual Studio Code, embedded in your browser. You can do all kinds of changes on the full repository; you can then create a commit or a pull request for all your changes. It is pretty powerful, but it is way too complex to describe in this short note. If you feel a need for an adventure, it is worth trying it out!
+
+(Note that it starts up in the branch that is active. If you make a commit, it will do it in this branch. If you want create a pull request, then starts with another branch, edit it there, and then you can create a PR.)
