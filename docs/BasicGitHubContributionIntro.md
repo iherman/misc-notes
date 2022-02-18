@@ -2,7 +2,7 @@
 
 Many first-time users are intimidated by Git and GitHub, and they are indeed not simple tools. Most of the guides out there concentrate on how one does contribute to the documents, sources, etc, on a GitHub repository, how to change, commit, etc. However, in groups (like W3C Working Group) there may be a number of participants who would like first to understand what the basics are to raise issues, comment on them, notified about them: this is, for many, the first step in collaborating. This introduction is for them.
 
-[GitHub](https://guides.github.com/features/issues/) are a way to comment on documents or other sources, and have threads of discussions. Issues can be labelled, referred to via a URL, and GitHub offers powerful ways of searching through the issues. As a consequence, many groups prefer to use the GitHub issue facilities to manage comments. Here are the steps that you have to follow to get up to speed quickly.
+[GitHub](https://guides.github.com/features/issues/) Issues are a way to comment on documents or other sources, and have threads of discussions. Issues can be labelled, referred to via a URL, and GitHub offers powerful ways of searching through the issues. As a consequence, many groups prefer to use the GitHub issue facilities to manage comments. Here are the steps that you have to follow to get up to speed quickly.
 
 1. [Get a GitHub account](#getgh)
 1. [Issue creation and commenting](#iss)
