@@ -17,7 +17,7 @@ Many first-time users are intimidated by Git and GitHub, and they are indeed not
 
 ## [Get a GitHub account](id:getgh)
 
-If you haven't yet, get yourself an account. You will have to choose a nickname, and provide an email address, too. The email address may used for various notifications (see below) so use an email address that you use regularly for your work, too.
+If you haven't yet, get yourself an account. You will have to choose a nickname, and provide an email address. The email address may used for various notifications (see below) so use an email address that you use regularly for your work, too.
 
 > The nickname is also a powerful tool to refer to another person in an issue, a comment, etc. E.g., if my nickname (iherman) appears in the form `@iherman` in an issue and/or a comment, I am notified of that comment, and an active link to my profile is also automatically generated in the comment on-line. It has become a habit on GitHub to use the nickname rather than one’s name in a comment.
 
@@ -122,3 +122,7 @@ Say you want to make some editing on an on the `index.html` file in a [specific 
 That is it. The rest is in the hands of the repository administrator
 
 > The result of this action creates, actually, a special issue on the repository that can be “acted” upon. Such an issue is called a “pull request” in the GitHub jargon. “Accepting” such a pull request means that the changes are incorporated. This also means that people can comment on that pull request (just as for any other issue) and will be notified about the change proposal.
+
+### If you need a more sophisticated way of editing...
+
+(This is only for geeks…) It is now possible to start an on-line editing environment for the whole repository. If, while you are in the repository, push the dot (.) key, the window changes for an online version of Visual Studio Code, embedded in your browser. You can do all kinds of changes on the full repository; you can then create a commit or a pull request for all your changes. It is pretty powerful, but it is way too complex to describe in this short note. If you feel a need for an adventure, it is worth trying it out!
