@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <title>Security Vocabulary Examples</title>
+    <script class="remove" src="https://www.w3.org/Tools/respec/respec-w3c"></script>
+    <script>
+      function remove_status_remark() {
+          const sotd = document.getElementById("sotd");
+          const p = sotd.getElementsByTagName('p')[0];
+          sotd.removeChild(p);
+      }
+      // Note: The vocabulary URL must be adapted for the given environment!!!!
+      function massageSVGLinks(utils, content, url) {
+        const retval = content
+          .replace('<svg', '<svg aria-details="#vocabulary-diagram-alt" ')
+          .replace(/xlink:href/g, 'href')
+          .replace(/href="https:\/\/w3id.org\/security#/g, 'href="#');
+        return retval;
+      }
+    </script>
+    <script class="remove">
+      var respecConfig = {
+        localBiblio: {
+        },
+        specStatus:  "base",
+        shortName:   "ns/security",
+        thisVersion: "https://w3c.github.io/vc-data-integrity/vocab/security/vocabulary.html",
+        latestVersion: "https://w3id.org/security",
+        doJsonLd:    true,
+        editors: [{
+          name:       "Ivan Herman",
+          url:        "https://www.w3.org/People/Ivan/",
+          company:    "W3C",
+          w3cid:      7382,
+          orcid:      "0000-0003-0782-2704",
+          companyURL: "https://www.w3.org",
+        }],
+        // group : "vc",
+        // github: {
+				// 	repoURL: "https://github.com/w3c/vc-data-model",
+				// 	branch: "main"
+				// },
+        inlineCSS: true,
+        doRDFa: false,
+        noIDLIn: true,
+        noLegacyStyle: false
+      };
+    </script>
+    <style type="text/css">
+      dl.terms dt {
+        float: left;
+        clear: left;
+        width: 10vw;
+      }
+
+      dl.terms dd {
+        margin-left: 15vw;
+      }
+
+      dl.terms dd:after {
+          content: '';
+          display: block;
+          clear: both;
+          margin-bottom: 5px;
+      }
+      table.rdfs-definition td {
+        vertical-align: top;
+        margin-right: 2em;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      /* code {
+        color: red;
+      } */
+
+      .term_definitions section {
+        border-bottom-style: solid ;
+        border-bottom-width: 1px;
+        border-bottom-color: darkgrey;
+      }
+
+      .annoy {
+        background: hsla(40,100%,50%,0.95);
+		    color: black;
+		    padding: .75em 1em;
+		    border: red;
+		    border-style: solid none;
+		    box-shadow: 0 2px 8px black;
+		    text-align: center;
+      }
+
+      summary {
+        font-weight: normal !important;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section id="abstract">
+      <p>Just testing DI examples in graph formats</p>
+    </section>
+    <section id="sotd">
+    </section>
+
+      <figure style="text-align:center">
+        <div data-include="simple.svg" data-include-replace="true" data-oninclude="massageSVGLinks"></div>
+        <figcaption>A simple proof pointing at a verification method in JWK
+        </figcaption>
+      </figure>
+  
+      <figure style="text-align:center">
+        <div data-include="simple_with_controller.svg" data-include-replace="true" data-oninclude="massageSVGLinks"></div>
+        <figcaption>A simple proof pointing at a verification method in JWK which also has an explicit controller resource
+        </figcaption>
+      </figure>
+ 
+      <figure style="text-align:center">
+        <div data-include="complete.svg" data-include-replace="true" data-oninclude="massageSVGLinks"></div>
+        <figcaption>A simple proof pointing at, essentially, a controller document that lists several verification methods, one of which is used by the proof.
+        </figcaption>
+      </figure>
+ 
+ 
+
+
+
+  
+
+</body></html>
