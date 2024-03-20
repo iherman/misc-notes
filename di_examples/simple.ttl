@@ -1,0 +1,17 @@
+@prefix sec: <https://w3id.org/security#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://proof.example.org> a sec:DataIntegrityProof ;
+    sec:expires "2044-03-19T11:52:00:821Z"^^xsd:dateTime ;
+    sec:created "2024-03-19T11:52:00:821Z" ;
+    sec:cryptosuite "ecdsa-2011"^^sec:cryptosuiteString ;
+    sec:proofValue "ui7tvde12p6kFPzzK…"^^sec:multibase ;
+    sec:verificationMethod <urn:uuid:382c8f68…> ;
+.
+
+<urn:uuid:382c8f68…> a sec:JsonWebKey ;
+    sec:expires "2055-02-24T00:00:00.000Z"^^xsd:dateTime ;
+    sec:publicKeyJwk "{\"key_ops\":[\"verify\"],\"kty\":\"EC\"…"^^rdf:JSON ;
+.
+

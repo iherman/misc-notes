@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-03-19T14:43:37.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Krr7kaavnJP6OMU_16nr" version="24.0.4" type="device">
+<mxfile host="Electron" modified="2024-03-20T10:25:33.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="50bAXSNFT5x0GZzuL5nT" version="24.0.4" type="device">
   <diagram name="Page-1" id="ZRe_wIOORr0k_d4isBBX">
     <mxGraphModel dx="4193" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -9,9 +9,9 @@
             <mxGeometry x="-1560" y="-460" width="257" height="69.61" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;ecdsa-2022&lt;/font&gt;&lt;/i&gt;" id="I-3xDNqU13IutiKupr62-12">
+        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;ecdsa-2022&lt;/font&gt;&lt;/i&gt;&lt;div&gt;&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;(Datatype: cryptosuiteString)&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" id="I-3xDNqU13IutiKupr62-12">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-            <mxGeometry x="-1035" y="-690" width="130" height="40" as="geometry" />
+            <mxGeometry x="-1080" y="-690" width="220" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="I-3xDNqU13IutiKupr62-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;fontStyle=2" parent="1" source="I-3xDNqU13IutiKupr62-4" target="I-3xDNqU13IutiKupr62-12" edge="1">
@@ -25,19 +25,19 @@
             <mxPoint x="-11" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;2024-03-19T&lt;/font&gt;11:52:00.821Z&lt;/i&gt;" id="HRplg5cOvGm0gZk61Yn5-3">
+        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;2024-03-19T&lt;/font&gt;11:52:00.821Z&lt;/i&gt;&lt;div&gt;&lt;i&gt;(Datatype: xsd:dateTiime)&lt;/i&gt;&lt;/div&gt;" id="HRplg5cOvGm0gZk61Yn5-3">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-            <mxGeometry x="-1810" y="-210" width="240" height="40" as="geometry" />
+            <mxGeometry x="-1810" y="-210" width="240" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;i&gt;ui7tvde12p6kFPzzK…&lt;/i&gt;" id="HRplg5cOvGm0gZk61Yn5-4">
+        <UserObject label="&lt;i&gt;ui7tvde12p6kFPzzK…&lt;/i&gt;&lt;div&gt;&lt;i&gt;(Datatype: multibase)&lt;/i&gt;&lt;/div&gt;" id="HRplg5cOvGm0gZk61Yn5-4">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-            <mxGeometry x="-1090" y="-550" width="240" height="40" as="geometry" />
+            <mxGeometry x="-1090" y="-550" width="240" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;2044-03-19T&lt;/font&gt;11:52:00.821Z&lt;/i&gt;" id="HRplg5cOvGm0gZk61Yn5-5">
+        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;2044-03-19T&lt;/font&gt;11:52:00.821Z&lt;/i&gt;&lt;div&gt;&lt;i&gt;(Datatype: xsd:dateTime)&lt;/i&gt;&lt;/div&gt;" id="HRplg5cOvGm0gZk61Yn5-5">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-            <mxGeometry x="-1810" y="-720" width="240" height="40" as="geometry" />
+            <mxGeometry x="-1810" y="-730" width="240" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="HRplg5cOvGm0gZk61Yn5-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fontStyle=2" parent="1" source="I-3xDNqU13IutiKupr62-4" target="HRplg5cOvGm0gZk61Yn5-3" edge="1">
@@ -111,14 +111,14 @@
             <mxPoint x="-1" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;i&gt;{\&quot;key_ops\&quot;:[\&quot;verify\&quot;],\&quot;ext\&quot;:true…&lt;/i&gt;" id="HRplg5cOvGm0gZk61Yn5-15">
+        <UserObject label="&lt;i&gt;{&quot;key_ops&quot;:[&quot;verify&quot;],&quot;kty&quot;:&quot;EC&quot;…&lt;/i&gt;&lt;div&gt;&lt;i&gt;(Datatype: rdf:JSON&lt;/i&gt;&lt;/div&gt;" id="HRplg5cOvGm0gZk61Yn5-15">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-            <mxGeometry x="-530" y="-400" width="300" height="40" as="geometry" />
+            <mxGeometry x="-530" y="-400" width="300" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;2055-02-24T&lt;/font&gt;00:00:00.821Z&lt;/i&gt;" id="HRplg5cOvGm0gZk61Yn5-19">
+        <UserObject label="&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;2055-02-24T&lt;/font&gt;00:00:00.000Z&lt;/i&gt;&lt;div&gt;&lt;i&gt;(Datatype: xsd:dateTime&lt;/i&gt;&lt;/div&gt;" id="HRplg5cOvGm0gZk61Yn5-19">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-            <mxGeometry x="-500" y="-227" width="240" height="40" as="geometry" />
+            <mxGeometry x="-500" y="-227" width="240" height="47" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
