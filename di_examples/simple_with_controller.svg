@@ -289,7 +289,7 @@
                         </i>
                         <div>
                             <i>
-                                (Datatype: rdf:JSON
+                                (Datatype: rdf:JSON)
                             </i>
                         </div>
                     </div>
@@ -312,7 +312,7 @@
                         </i>
                         <div>
                             <i>
-                                (Datatype: xsd:dateTime
+                                (Datatype: xsd:dateTime)
                             </i>
                         </div>
                     </div>
